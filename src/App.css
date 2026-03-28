@@ -13,3 +13,16 @@ nav {
     padding: 20px;
     text-align: center;
 }
+
+body {
+    background-color: rgb(241, 241, 241);
+}
+
+.container {
+    width: 400px;
+    background-color: white;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
