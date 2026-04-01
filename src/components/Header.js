@@ -5,5 +5,4 @@ const Header = () => {
     <nav>Get ready to complete your Daily Goals</nav>
   )
 }
-
-export default Header
+export default Header;

@@ -1,7 +1,7 @@
 * {
-  margin:0%;
-  padding: 0%;
-   font-family: "Roboto", sans-serif;
+    margin: 0%;
+    padding: 0%;
+    font-family: "Roboto", sans-serif;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
@@ -26,20 +26,22 @@ body {
     min-height: 100vh;
 }
 
-.container > form {
+.container>form {
     display: flex;
     flex-direction: column;
 }
 
-.container > h1 {
+.container>h1 {
     text-align: center;
     margin: 30px;
     font-size: 2.5rem;
 }
 
-input,textarea,button {
+input,
+textarea,
+button {
     padding: 15px;
-    margin: 10px;
+    margin: 10px 0px;
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, 0.214);
     font-size: 1.2rem;
@@ -52,3 +54,38 @@ button {
     cursor: pointer;
 }
 
+
+
+.task {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.task>div {
+    width: 100%;
+}
+
+.task span {
+    color: rgb(0, 0, 0.673);
+}
+
+.task button {
+    border-radius: 100%;
+
+    width: 30px;
+    height: 30px;
+    font-size: 1.6rem;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.task button:hover {
+    background-color: red;
+}
