@@ -1,6 +1,8 @@
 import React from 'react';
 
-const Task =({title, description}) =>{
+const Task =({title, description, deleteTask, index}) =>{
+
+
   return(
     <div className='task'> 
 
@@ -9,7 +11,7 @@ const Task =({title, description}) =>{
     <span>{description}</span>
     </div>
     
-    <button>-</button>
+    <button onClick={()=> deleteTask(index)}>-</button>
     </div>
   );
 };
